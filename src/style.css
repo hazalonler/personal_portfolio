@@ -133,7 +133,11 @@ p {
 h4 {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
-} 
+}
+
+figure {
+    margin-bottom: 10px;
+}
 
 .project img{
     padding: 10px;
@@ -148,21 +152,31 @@ img[src*="Laptop"], img[src*='tea'] {
     height: 350px;
 }
 
-/* Contact */
-
-#contacts {
-    text-align: center;
+figcaption {
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
-.contact {
+/* Social Media */
+
+.social-media {
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 40px;
 }
 
-.contact img {
+.social-media img {
     width: 40px;
     padding-left: 20px;
     margin-top: 20px;
 }
 
+
+/* Contact */
+
+label img {
+    width: 100px;
+    height: 100px;
+}
