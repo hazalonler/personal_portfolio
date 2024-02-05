@@ -9,9 +9,9 @@
     <!-- Header -->
     <header>
         <nav>
-            <div class="nav-el">About Me</div>
-            <div class="nav-el">Projects</div>
-            <div class="nav-el">Contact</div>
+            <a href="#about-me"><div class="nav-el">About Me</div></a>
+            <a href="#projects-section"><div class="nav-el">Projects</div></a>
+            <a href="#contacts"><div class="nav-el">Contact</div></a>
             <button class="nav-el">Download CV</button>
         </nav>
     </header>
@@ -23,7 +23,7 @@
                 <h1>Hazal Önler</h1>
                 <h2>Front End Developer</h2>
             </div>
-            <div class="about-me">
+            <div id="about-me">
                 <h3>About Me</h3>
                 <p>I am a self-taught student who wants to be a front-end developer. I learned Python and took a course about applying AI methods to water resources in my master's education. These have enlightened me to seek a career in software development. After graduation, I got into the Game and Application Academy bootcamp program. 
                 Afterward, I continued to expand my knowledge horizontally by learning data structure, algorithms, OOP, databases, and front-end development. </p>
@@ -35,11 +35,16 @@
                 </div>
             </div>    
         </div>    
-        <div class="projects-section">
+        <div id="projects-section">
             <h3>My Projects</h3>
             <div class="projects">
                 <div class="project">
                     <h4>F2 To-Do List & Pomodoro</h4>
+                    <div class="images">
+                        <img src="../Laptop-page.png" alt="laptop-image-fotomatic-website"/>
+                        <img src="../tablet-page.png" alt="tablet-image-fotomatic-website"/>
+                        <img src="../mobile-page.png" alt="mobile-image-fotomatic-website"/>
+                    </div>
                 </div>
                 <div class="project">
                     <h4>Fotomatic Responsive Landing Page</h4>
@@ -51,9 +56,27 @@
                 </div>
                 <div class="project">
                     <h4>Tea Cozy Landing Page</h4>
+                    <div class="images">
+                        <img src="../tea-cozy-1.png" alt="laptop-image-fotomatic-website"/>
+                        <img src="../tea-cozy-2.png" alt="tablet-image-fotomatic-website"/>
+                    </div>
                 </div>
             </div>
-        </div>  
+        </div>
+        <div id="contacts">
+            <h3>Contact</h3>
+            <div class="contact">
+                <div class="linkedin">
+                    <img src="../linkedin.svg" alt="linkedin"/>
+                </div>
+                <div class="twitter">
+                    <img src="../twitter-alt-circle.svg" alt="twitter"/>
+                </div>
+                <div class="github">
+                    <img src="../github.svg" alt="github"/>
+                </div>
+            </div>
+        </div>   
     </section>
   </body>
 </html>
