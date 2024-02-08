@@ -123,7 +123,7 @@ p {
     justify-items: center;
 }
 
-.project {
+#project {
     padding: 20px;
     margin: 10px;
     text-align: center;
@@ -207,4 +207,18 @@ label img {
     width: 30px;
     padding: 0 8px;
     margin-top: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+
+.date {
+    text-decoration: underline;
 }
