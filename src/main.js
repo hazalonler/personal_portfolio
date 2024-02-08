@@ -1,14 +1,38 @@
-let project = document.getElementById('project')
+let selector = document.querySelector('h4')
 
-const projectImages = () => {
-    let images = document.getElementById('images')
+const projectImages = (event) => {
+    
+    if (selector === 'F2') {
+        let images = document.getElementById('imagesF2')
 
-    if (images.hidden === false){
-        images.hidden = true
-    } else {
-        images.hidden = false
+        if (images.hidden === false) {
+            images.hidden = true
+        } else {
+            images.hidden = false
+        }
     }
+
+    if (selector === 'Fotomatic') {
+        let images = document.getElementById('imagesFotomatic')
+
+        if (images.hidden === false) {
+            images.hidden = true
+        } else {
+            images.hidden = false
+        }
+    }    
+
+    if (selector === 'TeaCozy') {
+        let images = document.getElementById('imagesTeaCozy')
+
+        if (images.hidden === false) {
+            images.hidden = true
+        } else {
+            images.hidden = false
+        }
+    }
+
 }
 
-project.addEventListener('click', projectImages);
+selector.addEventListener('click', projectImages);
 
