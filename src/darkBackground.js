@@ -1,8 +1,14 @@
 function myFunction() {
-    element.classList.toggle("dark-mode");
-    navEl.classList.toggle("nav-el-dark-mode");
+
+    if  (element.style.backgroundColor === 'black') {
+        element.style.backgroundColor = 'white';
+        element.style.color = 'black';
+    } else {
+        element.style.backgroundColor = 'black';
+        element.style.color = 'white';
+    }
 }
 
 let element  = document.body;
-let navEl = element.querySelector('nav');
-element.onclick = myFunction;
+let bodyElement = document.getElementById('darkSwitch');
+bodyElement.onclick = myFunction;
