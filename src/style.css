@@ -9,6 +9,11 @@ body {
     margin: 50px 170px;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -20,6 +25,10 @@ nav {
     font-size: 1rem;
     font-weight: 500;
     color: black;
+}
+
+.nav-el-dark-mode {
+    color: white;
 }
 
 .nav-el:hover {
@@ -116,12 +125,8 @@ p {
 }
 
 .projects {
-    display: grid;
-    grid-template-areas: "project"
-                         "project"
-                         "project";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 20px 0;
     justify-items: left;
 }
@@ -134,7 +139,7 @@ p {
 h4 {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 figure {
@@ -143,8 +148,13 @@ figure {
     margin-right: 20px;
 }
 
-.project img{
+#F2 img, #Fotomatic img, #TeaCozy img{
     padding: 10px;
+}
+
+#F2 button, #Fotomatic button, #TeaCozy button{
+    width: 400px;
+    height: 70px;
 }
 
 img[src*="mobile"], img[src*="tablet"] {
