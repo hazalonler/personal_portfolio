@@ -10,6 +10,11 @@ body {
     color: black;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 header {
     display: flex;
     justify-content: center;
