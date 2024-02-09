@@ -1,38 +1,18 @@
-let selector = document.querySelector('h4')
+let selectorF2 = document.getElementById('F2')
+console.log(selectorF2);
+let imagesF2 = document.getElementById('imagesF2')
+imagesF2.hidden = true
 
-const projectImages = (event) => {
+const projectImages = () => {
     
-    if (selector === 'F2') {
-        let images = document.getElementById('imagesF2')
-
-        if (images.hidden === false) {
-            images.hidden = true
-        } else {
-            images.hidden = false
-        }
-    }
-
-    if (selector === 'Fotomatic') {
-        let images = document.getElementById('imagesFotomatic')
-
-        if (images.hidden === false) {
-            images.hidden = true
-        } else {
-            images.hidden = false
-        }
-    }    
-
-    if (selector === 'TeaCozy') {
-        let images = document.getElementById('imagesTeaCozy')
-
-        if (images.hidden === false) {
-            images.hidden = true
-        } else {
-            images.hidden = false
-        }
+    if (imagesF2.hidden === false) {
+        imagesF2.hidden = true
+    } else {
+        imagesF2.hidden = false
     }
 
 }
 
-selector.addEventListener('click', projectImages);
+selectorF2.querySelector('button').addEventListener('click', projectImages);
+
 
