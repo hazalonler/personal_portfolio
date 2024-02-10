@@ -28,5 +28,10 @@
             </div>
         </div>
     </body>
-    <script src="darkBackground.js"></script>
+    <script>
+        let element = document.body;
+        if (localStorage.getItem('darkMode') === 'enable') {
+            element.classList.add('dark-mode') 
+        }
+    </script>
 </htmL>

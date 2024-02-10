@@ -1,10 +1,9 @@
 function myFunction() {
-
     element.classList.toggle('dark-mode')
     if (element.classList.contains('dark-mode')) {
-        localStorage.setItem('darkMode', 'enable')
+        localStorage.setItem('darkMode', 'enable');
     } else {
-        localStorage.setItem('darkMode', 'disable')
+        localStorage.setItem('darkMode', 'disable');
     }
 }
 
