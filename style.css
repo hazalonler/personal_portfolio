@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+.svg-dark-mode {
+    background-color: white;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -27,10 +31,15 @@ nav {
     margin-left: 150px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-el {
     padding: 1.5rem;
     font-size: 1rem;
     font-weight: 500;
+    color: rgb(160, 160, 160);
 }
 
 .nav-el:hover {
@@ -43,7 +52,9 @@ nav {
     margin-left: 150px;
     padding: 0.5rem!important;
     border-radius: 25px;
+    color: rgb(160, 160, 160);
 }
+
 
 button {
     border: solid 1px black;
@@ -105,7 +116,7 @@ h3{
 
 p { 
     width: 500px;
-    padding: 20px;
+    padding: 20px 0;
     font-weight: 300;
 }
 
@@ -123,12 +134,9 @@ p {
 
 .skill-set img {
     width: 40px;
-    padding-left: 20px;
+    padding: 0 10px;
     margin-top: 40px;
-}
-
-.skill-set img.dark-mode {
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 /* Projects */
@@ -204,11 +212,9 @@ label img {
 }
 
 .email label, .email input {
+    padding: 2px 2px 0 2px;
     margin: 0 10px;
-}
-
-.email label.dark-mode {
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 .input-text {
@@ -247,10 +253,7 @@ label img {
     width: 30px;
     padding: 0 8px;
     margin-top: 20px;
-}
-
-.social-media img.dark-mode {
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 
